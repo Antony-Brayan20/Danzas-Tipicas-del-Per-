@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f7f1;
+  color: #333;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px 40px 20px;
+  line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px #bdc3c7;
+}
+
+/* Párrafo introductorio */
+p {
+  font-size: 1.15rem;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+/* Estructura de las danzas - uso de secciones para mejorar semántica */
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+/* Encabezados de cada danza dentro de la lista */
+h2 {
+  color: #2980b9;
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 3px;
+}
+
+/* Listas dentro de las danzas */
+li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+/* Slideshow */
+.slideshow {
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(41, 128, 185, 0.3);
+  overflow: hidden;
+  border: 3px solid #2980b9;
+}
+
+.slideshow img {
+  width: 100%;
+  display: block;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: #2298b6;
+  color: white;
+  text-align: center;
+  padding: 18px 15px;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(65, 185, 41, 0.4);
+}
+
+/* Pequeña animación para hacer más didáctico */
+h2:hover {
+  color: #e67e22;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}

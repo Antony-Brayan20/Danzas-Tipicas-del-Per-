@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fcb045, #fd1d1d); /* Degradado cálido */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #0077b6; /* Azul suave pero visible */
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+/* Contenedor de contenido */
+.padre {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    color: #111; /* Texto oscuro para alto contraste */
+}
+
+/* Párrafos */
+.padre p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Imagen */
+.padre img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .padre {
+        margin: 30px 20px;
+        padding: 20px;
+    }
+
+    .padre p {
+        font-size: 17px;
+    }
+}

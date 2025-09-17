@@ -1,0 +1,65 @@
+/* Estilos para Sierra Peruana */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #f2f8f5;
+  color: #2c3e50;
+  padding: 0 20px 40px 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #1a4d2e;
+  text-shadow: 1px 1px 2px #a8d5ba;
+}
+
+h2 {
+  color: #1a4d2e;
+  margin-top: 30px;
+  border-bottom: 3px solid #a8d5ba;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 40px;
+  font-size: 1.1rem;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+.slideshow {
+  max-width: 700px;
+  margin: 40px auto;
+  border: 3px solid #1a4d2e;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(26, 77, 46, 0.3);
+  overflow: hidden;
+}
+
+.slideshow img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #1a4d2e;
+  color: #d4f1de;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 1.1rem;
+  box-shadow: 0 0 12px rgba(26, 77, 46, 0.5);
+}

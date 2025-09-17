@@ -1,0 +1,55 @@
+/* selva.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f2e6; /* Verde claro para dar sensación de naturaleza */
+  color: #2e4d25; /* Verde oscuro para buena lectura */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #145214;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.slideshow {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+footer {
+  max-width: 700px;
+  margin: 40px auto 20px;
+  padding-top: 20px;
+  border-top: 2px solid #1ba8b3;
+  font-style: italic;
+  text-align: center;
+  color: #48336f;
+}

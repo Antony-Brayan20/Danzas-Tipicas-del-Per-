@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sierra</title>
+
+    <link rel="stylesheet" href="costa.css">
+    
+</head>
+<body>
+
+    <h1>Danzas Tipicas de la Sierra Peruana</h1>
+    <p>La Sierra Peruana es una región rica en tradiciones culturales que se manifiestan de manera vibrante a través de sus danzas típicas. Estas danzas no solo son una expresión artística, sino que también reflejan la historia, cosmovisión, creencias y la vida cotidiana de los pueblos andinos.</p>
+    
+
+
+
+
+
+
+
+    </ul>
+
+  <div class="slideshow">
+    <img id="imagen" src="" alt="Foto actual">
+  </div>
+
+  <script>
+    // Lista de imágenes
+    const imagenes = [
+       "sierra/danza1.jpg",
+       "sierra/danza2.jpg",
+       "sierra/danza3.jpg",
+       "sierra/danza4.jpg",
+       "sierra/danza5.jpg",
+       "sierra/danza6.jpg",
+       "sierra/danza7.jpg",
+       "sierra/danza8.jpg",
+       "sierra/danza9.jpg",
+       "sierra/danza10.jpg"
+
+  
+    ];
+
+    let indice = 0;
+    const img = document.getElementById("imagen");
+
+    function mostrarSiguienteFoto() {
+      // Cambiar la imagen con opacidad
+      img.style.opacity = 0;
+
+      setTimeout(() => {
+        img.src = imagenes[indice];
+        img.style.opacity = 1;
+
+        indice = (indice + 1) % imagenes.length; // volver al inicio al final
+      }, 500);
+    }
+
+    // Mostrar la primera imagen al cargar
+    mostrarSiguienteFoto();
+
+    // Cambiar imagen cada 3 segundos
+    setInterval(mostrarSiguienteFoto, 3000);
+  </script>
+
+
+<div>
+  <footer>
+    <p>
+      las danzas de la Sierra Peruana son un patrimonio cultural invaluable que encarna la identidad, espiritualidad y alegría del pueblo andino, constituyendo un elemento vital para la cohesión social y la celebración de la vida.
+    </p>
+
+
+
+
+  </footer>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    
+</body>
+</html>

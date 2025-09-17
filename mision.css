@@ -1,0 +1,51 @@
+body {
+    /* Mantenemos el degradado, pero lo hacemos más suave. */
+    background: linear-gradient(to right, #8b53d5, #5fa7f0);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    /* Aumentamos el ancho máximo a 90% para que el cuadro sea más amplio. */
+    max-width: 90%;
+    /* Reducimos la opacidad del fondo para que sea menos fuerte. */
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+
+.padre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

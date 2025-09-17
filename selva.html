@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selva</title>
+
+    <link rel="stylesheet" href="costa.css">
+    
+</head>
+<body>
+
+    <h1>Danzas Tipicas de la Selva Peruana</h1>
+    <p>es un espacio de gran diversidad cultural donde las danzas tradicionales juegan un papel fundamental en la vida social, espiritual y festiva de las comunidades indígenas y mestizas. Estas danzas son una expresión viva de la conexión profunda que tienen con la naturaleza, los animales y los espíritus de la selva.</p>
+    
+
+
+
+
+
+
+
+    </ul>
+
+  <div class="slideshow">
+    <img id="imagen" src="" alt="Foto actual">
+  </div>
+
+  <script>
+    // Lista de imágenes
+    const imagenes = [
+       "selva/danza1.jpg",
+       "selva/danza2.jpg",
+       "selva/danza3.jpg",
+       "selva/danza4.jpg",
+       "selva/danza5.jpg",
+       "selva/danza6.jpg",
+       "selva/danza7.jpg",
+       "selva/danza8.jpg",
+       "selva/danza9.jpg",
+       "selva/danza10.jpg"
+
+  
+    ];
+
+    let indice = 0;
+    const img = document.getElementById("imagen");
+
+    function mostrarSiguienteFoto() {
+      // Cambiar la imagen con opacidad
+      img.style.opacity = 0;
+
+      setTimeout(() => {
+        img.src = imagenes[indice];
+        img.style.opacity = 1;
+
+        indice = (indice + 1) % imagenes.length; // volver al inicio al final
+      }, 500);
+    }
+
+    // Mostrar la primera imagen al cargar
+    mostrarSiguienteFoto();
+
+    // Cambiar imagen cada 3 segundos
+    setInterval(mostrarSiguienteFoto, 3000);
+  </script>
+
+
+<div>
+  <footer>
+    <p>
+      Estas danzas no solo embellecen las fiestas, sino que son medios para preservar el patrimonio cultural y fortalecer la identidad de los pueblos amazónicos frente a los cambios sociales y ambientales.
+    </p>
+
+
+
+
+  </footer>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
